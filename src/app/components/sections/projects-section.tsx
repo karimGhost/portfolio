@@ -20,30 +20,30 @@ const projects: Project[] = [
     id: 'Blabzio Social',
     title: 'Social Media',
     description: 'A social media platform built with Gatsby.JS and primereact CSS.',
-    imageUrl: 'https://picsum.photos/seed/alpha/600/400',
+    imageUrl: '/image/Blabzio.png',
     imageHint: 'SocialMedia',
-    liveLink: '#',
-    repoLink: '#',
-    tags: ['Gatsby.js', 'primereact CSS',  'Javascript'],
+    liveLink: 'blabzio.web.app',
+    repoLink: 'https://github.com/karimGhost/BlabzioApp',
+    tags: ['React','Gatsby.js', 'primereact CSS',  'Javascript'],
+  },
+  {
+    id: 'Magnetics reciept & consult',
+    title: 'MagneticsRepair',
+    description: 'A site for technicians to manage reciept and create feed.',
+    imageUrl: '/image/Magnetics.png',
+    imageHint: 'collaboration tool',
+    liveLink: 'https://magnetics.vercel.app/',
+    repoLink: 'https://github.com/karimGhost/Magnetics',
+    tags: ['React','NextJS', 'WebSockets', 'Real-time', 'Collaboration'],
   },
   {
     id: '',
-    title: 'Project Beta',
-    description: 'A real-time collaborative whiteboard application using React and WebSockets, allowing multiple users to sketch and brainstorm together.',
-    imageUrl: 'https://picsum.photos/seed/beta/600/400',
-    imageHint: 'collaboration tool',
-    liveLink: '#',
-    repoLink: '#',
-    tags: ['React', 'WebSockets', 'Real-time', 'Collaboration'],
-  },
-  {
-    id: 'project-gamma',
-    title: 'Project Gamma',
-    description: 'A data visualization dashboard for financial analytics powered by D3.js and React, offering interactive charts and insightful reports.',
-    imageUrl: 'https://picsum.photos/seed/gamma/600/400',
+    title: 'Opine notes',
+    description: 'note-taking app thats really useful if youre low on time and want to get straight to the point..',
+    imageUrl: '/image/Opine.png',
     imageHint: 'analytics chart',
-    liveLink: '#',
-    tags: ['React', 'D3.js', 'Data Visualization', 'Finance'],
+    liveLink: 'https://karimghost.github.io/opinenotes/',
+    tags: ['React', 'D3.js', 'Data Visualization', ],
   },
 ];
 
@@ -64,6 +64,7 @@ export default function ProjectsSection() {
                   alt={project.title}
                   width={600}
                   height={400}
+                  style={{objectPosition:"top"}}
                   className="w-full h-48 object-cover"
                   data-ai-hint={project.imageHint}
                 />
