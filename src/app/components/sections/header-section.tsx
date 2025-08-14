@@ -39,7 +39,7 @@ export default function HeaderSection() {
           <a href="https://linkedin.com/in/abdulkarimkassim" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin size={28} />
           </a>
-           <a href="mailto:kassim@example.com" aria-label="Email Abdulkarim" className="text-muted-foreground hover:text-primary transition-colors">
+           <a href="mailto:Abdulkarimkassimsalim@gmail.com" aria-label="Email Abdulkarim" className="text-muted-foreground hover:text-primary transition-colors">
             <Mail size={28} />
           </a>
         </div>
