@@ -17,14 +17,24 @@ interface Project {
 
 const projects: Project[] = [
   {
+   id: 'Kinnect',
+title: 'Kinnect Media',
+description: 'Kinnect is a platform that unites and reconnects families made with reactjs and nodejs .',
+imageUrl: '/image/kinnect.png',
+imageHint: 'Social Media',
+    liveLink: 'https://karimart.vercel.app/',
+    repoLink: 'https://github.com/karimGhost/blabzioSocial',
+    tags: ['React', 'Tailwind CSS',  'Javascript', 'next js', 'nodejs'],
+  },
+  {
     id: 'Blabzio Social',
     title: 'Social Media',
-    description: 'A social media platform built with Gatsby.JS and primereact CSS.',
+    description: 'A social media platform built with reactjs,  nextjs, and nodejs',
     imageUrl: '/image/Blabzio.png',
     imageHint: 'SocialMedia',
     liveLink: 'https://blabzio-social.vercel.app/feed',
     repoLink: 'https://github.com/karimGhost/blabzioSocial',
-    tags: ['React','Gatsby.js', 'primereact CSS',  'Javascript'],
+    tags: ['React','next.js', 'tailwind CSS',  'Javascript', 'nodejs'],
   },
   {
     id: 'Magnetics reciept & consult',
